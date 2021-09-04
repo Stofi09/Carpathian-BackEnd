@@ -19,7 +19,7 @@ public class Food {
 	private int amount;
 	// later on it will need enums for a type such as : menu, drink, burger
 	
-	
+	private Food() {};
 	public Food(int price, String name, String description, int amount) {
 		super();
 		this.price = price;
